@@ -1,0 +1,38 @@
+name: Actualizar Índice FACPCE
+
+on:
+  workflow_dispatch:        # Botón manual en GitHub → Actions → Run workflow
+  schedule:
+    - cron: '0 12 5 * *'   # Respaldo automático: día 5 de cada mes a las 12:00 UTC
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # Necesario para hacer git push
+
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install requests beautifulsoup4 openpyxl
+
+      - name: Ejecutar script de actualización
+        run: python update_indices.py
+
+      - name: Commitear indices.json actualizado
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add indices.json
+          # Solo commitea si hubo cambios
+          git diff --staged --quiet && echo "Sin cambios en los datos." || (
+            git commit -m "chore: actualizar índice FACPCE $(date +'%Y-%m')" &&
+            git push
+          )
