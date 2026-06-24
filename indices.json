@@ -1,0 +1,752 @@
+{
+  "updated_at": "2026-06-24T12:56:57",
+  "source_url": "https://www.facpce.org.ar/wp-content/uploads/2026/06/Indice-FACPCE-Res.-JG-539-18-2026-05-1.xlsx",
+  "count": 149,
+  "data": [
+    {
+      "period": "2014-01",
+      "label": "Ene 2014",
+      "index": 51.878324
+    },
+    {
+      "period": "2014-02",
+      "label": "Feb 2014",
+      "index": 54.535254
+    },
+    {
+      "period": "2014-03",
+      "label": "Mar 2014",
+      "index": 55.86259
+    },
+    {
+      "period": "2014-04",
+      "label": "Abr 2014",
+      "index": 56.823062
+    },
+    {
+      "period": "2014-05",
+      "label": "May 2014",
+      "index": 57.884479
+    },
+    {
+      "period": "2014-06",
+      "label": "Jun 2014",
+      "index": 58.75606
+    },
+    {
+      "period": "2014-07",
+      "label": "Jul 2014",
+      "index": 59.547038
+    },
+    {
+      "period": "2014-08",
+      "label": "Ago 2014",
+      "index": 60.51881
+    },
+    {
+      "period": "2014-09",
+      "label": "Sep 2014",
+      "index": 61.483802
+    },
+    {
+      "period": "2014-10",
+      "label": "Oct 2014",
+      "index": 62.237114
+    },
+    {
+      "period": "2014-11",
+      "label": "Nov 2014",
+      "index": 62.805111
+    },
+    {
+      "period": "2014-12",
+      "label": "Dic 2014",
+      "index": 63.403241
+    },
+    {
+      "period": "2015-01",
+      "label": "Ene 2015",
+      "index": 63.530551
+    },
+    {
+      "period": "2015-02",
+      "label": "Feb 2015",
+      "index": 63.688746
+    },
+    {
+      "period": "2015-03",
+      "label": "Mar 2015",
+      "index": 64.313241
+    },
+    {
+      "period": "2015-04",
+      "label": "Abr 2015",
+      "index": 64.792348
+    },
+    {
+      "period": "2015-05",
+      "label": "May 2015",
+      "index": 65.75282
+    },
+    {
+      "period": "2015-06",
+      "label": "Jun 2015",
+      "index": 66.617622
+    },
+    {
+      "period": "2015-07",
+      "label": "Jul 2015",
+      "index": 67.575082
+    },
+    {
+      "period": "2015-08",
+      "label": "Ago 2015",
+      "index": 68.540074
+    },
+    {
+      "period": "2015-09",
+      "label": "Sep 2015",
+      "index": 69.465894
+    },
+    {
+      "period": "2015-10",
+      "label": "Oct 2015",
+      "index": 70.109976
+    },
+    {
+      "period": "2015-11",
+      "label": "Nov 2015",
+      "index": 71.512175
+    },
+    {
+      "period": "2015-12",
+      "label": "Dic 2015",
+      "index": 74.30115
+    },
+    {
+      "period": "2016-01",
+      "label": "Ene 2016",
+      "index": 80.988254
+    },
+    {
+      "period": "2016-02",
+      "label": "Feb 2016",
+      "index": 85.037666
+    },
+    {
+      "period": "2016-03",
+      "label": "Mar 2016",
+      "index": 87.07857
+    },
+    {
+      "period": "2016-04",
+      "label": "Abr 2016",
+      "index": 88.384749
+    },
+    {
+      "period": "2016-05",
+      "label": "May 2016",
+      "index": 91.5666
+    },
+    {
+      "period": "2016-06",
+      "label": "Jun 2016",
+      "index": 94.222031
+    },
+    {
+      "period": "2016-07",
+      "label": "Jul 2016",
+      "index": 96.766026
+    },
+    {
+      "period": "2016-08",
+      "label": "Ago 2016",
+      "index": 97.15309
+    },
+    {
+      "period": "2016-09",
+      "label": "Sep 2016",
+      "index": 97.541703
+    },
+    {
+      "period": "2016-10",
+      "label": "Oct 2016",
+      "index": 98.126953
+    },
+    {
+      "period": "2016-11",
+      "label": "Nov 2016",
+      "index": 99.206349
+    },
+    {
+      "period": "2016-12",
+      "label": "Dic 2016",
+      "index": 100.0
+    },
+    {
+      "period": "2017-01",
+      "label": "Ene 2017",
+      "index": 101.5859
+    },
+    {
+      "period": "2017-02",
+      "label": "Feb 2017",
+      "index": 103.6859
+    },
+    {
+      "period": "2017-03",
+      "label": "Mar 2017",
+      "index": 106.1476
+    },
+    {
+      "period": "2017-04",
+      "label": "Abr 2017",
+      "index": 108.9667
+    },
+    {
+      "period": "2017-05",
+      "label": "May 2017",
+      "index": 110.5301
+    },
+    {
+      "period": "2017-06",
+      "label": "Jun 2017",
+      "index": 111.8477
+    },
+    {
+      "period": "2017-07",
+      "label": "Jul 2017",
+      "index": 113.7852
+    },
+    {
+      "period": "2017-08",
+      "label": "Ago 2017",
+      "index": 115.3819
+    },
+    {
+      "period": "2017-09",
+      "label": "Sep 2017",
+      "index": 117.5719
+    },
+    {
+      "period": "2017-10",
+      "label": "Oct 2017",
+      "index": 119.3528
+    },
+    {
+      "period": "2017-11",
+      "label": "Nov 2017",
+      "index": 120.994
+    },
+    {
+      "period": "2017-12",
+      "label": "Dic 2017",
+      "index": 124.7956
+    },
+    {
+      "period": "2018-01",
+      "label": "Ene 2018",
+      "index": 126.9887
+    },
+    {
+      "period": "2018-02",
+      "label": "Feb 2018",
+      "index": 130.0606
+    },
+    {
+      "period": "2018-03",
+      "label": "Mar 2018",
+      "index": 133.1054
+    },
+    {
+      "period": "2018-04",
+      "label": "Abr 2018",
+      "index": 136.7512
+    },
+    {
+      "period": "2018-05",
+      "label": "May 2018",
+      "index": 139.5893
+    },
+    {
+      "period": "2018-06",
+      "label": "Jun 2018",
+      "index": 144.8053
+    },
+    {
+      "period": "2018-07",
+      "label": "Jul 2018",
+      "index": 149.2966
+    },
+    {
+      "period": "2018-08",
+      "label": "Ago 2018",
+      "index": 155.1034
+    },
+    {
+      "period": "2018-09",
+      "label": "Sep 2018",
+      "index": 165.2383
+    },
+    {
+      "period": "2018-10",
+      "label": "Oct 2018",
+      "index": 174.1473
+    },
+    {
+      "period": "2018-11",
+      "label": "Nov 2018",
+      "index": 179.6388
+    },
+    {
+      "period": "2018-12",
+      "label": "Dic 2018",
+      "index": 184.2552
+    },
+    {
+      "period": "2019-01",
+      "label": "Ene 2019",
+      "index": 189.6101
+    },
+    {
+      "period": "2019-02",
+      "label": "Feb 2019",
+      "index": 196.7501
+    },
+    {
+      "period": "2019-03",
+      "label": "Mar 2019",
+      "index": 205.9571
+    },
+    {
+      "period": "2019-04",
+      "label": "Abr 2019",
+      "index": 213.0517
+    },
+    {
+      "period": "2019-05",
+      "label": "May 2019",
+      "index": 219.5691
+    },
+    {
+      "period": "2019-06",
+      "label": "Jun 2019",
+      "index": 225.537
+    },
+    {
+      "period": "2019-07",
+      "label": "Jul 2019",
+      "index": 230.494
+    },
+    {
+      "period": "2019-08",
+      "label": "Ago 2019",
+      "index": 239.6077
+    },
+    {
+      "period": "2019-09",
+      "label": "Sep 2019",
+      "index": 253.7102
+    },
+    {
+      "period": "2019-10",
+      "label": "Oct 2019",
+      "index": 262.0661
+    },
+    {
+      "period": "2019-11",
+      "label": "Nov 2019",
+      "index": 273.2158
+    },
+    {
+      "period": "2019-12",
+      "label": "Dic 2019",
+      "index": 283.4442
+    },
+    {
+      "period": "2020-01",
+      "label": "Ene 2020",
+      "index": 289.8299
+    },
+    {
+      "period": "2020-02",
+      "label": "Feb 2020",
+      "index": 295.666
+    },
+    {
+      "period": "2020-03",
+      "label": "Mar 2020",
+      "index": 305.5515
+    },
+    {
+      "period": "2020-04",
+      "label": "Abr 2020",
+      "index": 310.1243
+    },
+    {
+      "period": "2020-05",
+      "label": "May 2020",
+      "index": 314.9087
+    },
+    {
+      "period": "2020-06",
+      "label": "Jun 2020",
+      "index": 321.9738
+    },
+    {
+      "period": "2020-07",
+      "label": "Jul 2020",
+      "index": 328.2014
+    },
+    {
+      "period": "2020-08",
+      "label": "Ago 2020",
+      "index": 337.0632
+    },
+    {
+      "period": "2020-09",
+      "label": "Sep 2020",
+      "index": 346.6207
+    },
+    {
+      "period": "2020-10",
+      "label": "Oct 2020",
+      "index": 359.657
+    },
+    {
+      "period": "2020-11",
+      "label": "Nov 2020",
+      "index": 371.0211
+    },
+    {
+      "period": "2020-12",
+      "label": "Dic 2020",
+      "index": 385.8826
+    },
+    {
+      "period": "2021-01",
+      "label": "Ene 2021",
+      "index": 401.5071
+    },
+    {
+      "period": "2021-02",
+      "label": "Feb 2021",
+      "index": 415.8595
+    },
+    {
+      "period": "2021-03",
+      "label": "Mar 2021",
+      "index": 435.8657
+    },
+    {
+      "period": "2021-04",
+      "label": "Abr 2021",
+      "index": 453.6503
+    },
+    {
+      "period": "2021-05",
+      "label": "May 2021",
+      "index": 468.725
+    },
+    {
+      "period": "2021-06",
+      "label": "Jun 2021",
+      "index": 483.6049
+    },
+    {
+      "period": "2021-07",
+      "label": "Jul 2021",
+      "index": 498.0987
+    },
+    {
+      "period": "2021-08",
+      "label": "Ago 2021",
+      "index": 510.3942
+    },
+    {
+      "period": "2021-09",
+      "label": "Sep 2021",
+      "index": 528.4968
+    },
+    {
+      "period": "2021-10",
+      "label": "Oct 2021",
+      "index": 547.0802
+    },
+    {
+      "period": "2021-11",
+      "label": "Nov 2021",
+      "index": 560.9184
+    },
+    {
+      "period": "2021-12",
+      "label": "Dic 2021",
+      "index": 582.4575
+    },
+    {
+      "period": "2022-01",
+      "label": "Ene 2022",
+      "index": 605.0317
+    },
+    {
+      "period": "2022-02",
+      "label": "Feb 2022",
+      "index": 633.4341
+    },
+    {
+      "period": "2022-03",
+      "label": "Mar 2022",
+      "index": 676.0566
+    },
+    {
+      "period": "2022-04",
+      "label": "Abr 2022",
+      "index": 716.9399
+    },
+    {
+      "period": "2022-05",
+      "label": "May 2022",
+      "index": 753.147
+    },
+    {
+      "period": "2022-06",
+      "label": "Jun 2022",
+      "index": 793.0278
+    },
+    {
+      "period": "2022-07",
+      "label": "Jul 2022",
+      "index": 851.761
+    },
+    {
+      "period": "2022-08",
+      "label": "Ago 2022",
+      "index": 911.1316
+    },
+    {
+      "period": "2022-09",
+      "label": "Sep 2022",
+      "index": 967.3076
+    },
+    {
+      "period": "2022-10",
+      "label": "Oct 2022",
+      "index": 1028.706
+    },
+    {
+      "period": "2022-11",
+      "label": "Nov 2022",
+      "index": 1079.2787
+    },
+    {
+      "period": "2022-12",
+      "label": "Dic 2022",
+      "index": 1134.5875
+    },
+    {
+      "period": "2023-01",
+      "label": "Ene 2023",
+      "index": 1202.979
+    },
+    {
+      "period": "2023-02",
+      "label": "Feb 2023",
+      "index": 1282.7091
+    },
+    {
+      "period": "2023-03",
+      "label": "Mar 2023",
+      "index": 1381.1601
+    },
+    {
+      "period": "2023-04",
+      "label": "Abr 2023",
+      "index": 1497.2147
+    },
+    {
+      "period": "2023-05",
+      "label": "May 2023",
+      "index": 1613.5895
+    },
+    {
+      "period": "2023-06",
+      "label": "Jun 2023",
+      "index": 1709.6115
+    },
+    {
+      "period": "2023-07",
+      "label": "Jul 2023",
+      "index": 1818.0838
+    },
+    {
+      "period": "2023-08",
+      "label": "Ago 2023",
+      "index": 2044.2832
+    },
+    {
+      "period": "2023-09",
+      "label": "Sep 2023",
+      "index": 2304.9242
+    },
+    {
+      "period": "2023-10",
+      "label": "Oct 2023",
+      "index": 2496.273
+    },
+    {
+      "period": "2023-11",
+      "label": "Nov 2023",
+      "index": 2816.0628
+    },
+    {
+      "period": "2023-12",
+      "label": "Dic 2023",
+      "index": 3533.1922
+    },
+    {
+      "period": "2024-01",
+      "label": "Ene 2024",
+      "index": 4261.5324
+    },
+    {
+      "period": "2024-02",
+      "label": "Feb 2024",
+      "index": 4825.7881
+    },
+    {
+      "period": "2024-03",
+      "label": "Mar 2024",
+      "index": 5357.0929
+    },
+    {
+      "period": "2024-04",
+      "label": "Abr 2024",
+      "index": 5830.2271
+    },
+    {
+      "period": "2024-05",
+      "label": "May 2024",
+      "index": 6073.7165
+    },
+    {
+      "period": "2024-06",
+      "label": "Jun 2024",
+      "index": 6351.7145
+    },
+    {
+      "period": "2024-07",
+      "label": "Jul 2024",
+      "index": 6607.7479
+    },
+    {
+      "period": "2024-08",
+      "label": "Ago 2024",
+      "index": 6883.4412
+    },
+    {
+      "period": "2024-09",
+      "label": "Sep 2024",
+      "index": 7122.2421
+    },
+    {
+      "period": "2024-10",
+      "label": "Oct 2024",
+      "index": 7313.9542
+    },
+    {
+      "period": "2024-11",
+      "label": "Nov 2024",
+      "index": 7491.4314
+    },
+    {
+      "period": "2024-12",
+      "label": "Dic 2024",
+      "index": 7694.0075
+    },
+    {
+      "period": "2025-01",
+      "label": "Ene 2025",
+      "index": 7864.1257
+    },
+    {
+      "period": "2025-02",
+      "label": "Feb 2025",
+      "index": 8052.9927
+    },
+    {
+      "period": "2025-03",
+      "label": "Mar 2025",
+      "index": 8353.3158
+    },
+    {
+      "period": "2025-04",
+      "label": "Abr 2025",
+      "index": 8585.6078
+    },
+    {
+      "period": "2025-05",
+      "label": "May 2025",
+      "index": 8714.4871
+    },
+    {
+      "period": "2025-06",
+      "label": "Jun 2025",
+      "index": 8855.5681
+    },
+    {
+      "period": "2025-07",
+      "label": "Jul 2025",
+      "index": 9023.973
+    },
+    {
+      "period": "2025-08",
+      "label": "Ago 2025",
+      "index": 9193.2441
+    },
+    {
+      "period": "2025-09",
+      "label": "Sep 2025",
+      "index": 9384.0922
+    },
+    {
+      "period": "2025-10",
+      "label": "Oct 2025",
+      "index": 9603.8623
+    },
+    {
+      "period": "2025-11",
+      "label": "Nov 2025",
+      "index": 9841.3581
+    },
+    {
+      "period": "2025-12",
+      "label": "Dic 2025",
+      "index": 10121.3715
+    },
+    {
+      "period": "2026-01",
+      "label": "Ene 2026",
+      "index": 10413.0309
+    },
+    {
+      "period": "2026-02",
+      "label": "Feb 2026",
+      "index": 10714.6255
+    },
+    {
+      "period": "2026-03",
+      "label": "Mar 2026",
+      "index": 11077.0608
+    },
+    {
+      "period": "2026-04",
+      "label": "Abr 2026",
+      "index": 11363.0904
+    },
+    {
+      "period": "2026-05",
+      "label": "May 2026",
+      "index": 11607.3937
+    }
+  ]
+}
