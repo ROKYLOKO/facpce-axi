@@ -18,8 +18,8 @@
     --border2: rgba(0,0,0,.18);
     --text: #111318;
     --muted: #6b7280;
-    --red: #d63031;
-    --red-bg: #fff1f0;
+    --green: #588157;
+    --green-bg: #eef3ea;
     --blue: #1d4ed8;
     --blue-bg: #eff6ff;
     --radius: 10px;
@@ -31,7 +31,7 @@
       --bg: #0f1117; --surface: #1a1d27; --surface2: #22273a;
       --border: rgba(255,255,255,.1); --border2: rgba(255,255,255,.2);
       --text: #e8eaf0; --muted: #9ca3b0;
-      --red-bg: #2d0a0a; --blue-bg: #0a1a3d;
+      --green-bg: #1a2616; --blue-bg: #0a1a3d;
     }
   }
 
@@ -77,7 +77,7 @@
     display: inline-flex; align-items: center; gap: 5px;
   }
   #statusChip.ok { background: #e8f5e9; color: #2e7d32; }
-  #statusChip.err { background: var(--red-bg); color: var(--red); }
+  #statusChip.err { background: var(--green-bg); color: var(--green); }
   @media (prefers-color-scheme: dark) {
     #statusChip.ok { background: #0d2b0d; color: #66bb6a; }
   }
@@ -106,13 +106,13 @@
     border-radius: var(--radius); padding: 18px;
   }
   .card.hero {
-    border-left: 4px solid var(--red);
+    border-left: 4px solid var(--green);
     padding: 20px 22px;
   }
 
   .lbl { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 5px; }
   .num { font-size: 36px; font-weight: 600; font-family: var(--mono); line-height: 1; }
-  .num.red { color: var(--red); }
+  .num.red { color: var(--green); }
   .num.md { font-size: 22px; }
   .num.lg { font-size: 44px; }
   .sub-text { font-size: 12px; color: var(--muted); margin-top: 5px; }
@@ -131,9 +131,9 @@
   td { padding: 8px 12px; border-bottom: 1px solid var(--border); }
   tr:last-child td { border-bottom: none; }
   .mono { font-family: var(--mono); }
-  .red-txt { color: var(--red); }
+  .red-txt { color: var(--green); }
   .bar-cell { width: 80px; }
-  .minibar { height: 4px; border-radius: 2px; background: var(--red); display: inline-block; }
+  .minibar { height: 4px; border-radius: 2px; background: var(--green); display: inline-block; }
 
   /* Section titles */
   .stitle {
@@ -166,10 +166,10 @@
   .result-detail { font-size: 12px; color: var(--muted); font-family: var(--mono); line-height: 1.7; }
 
   .acum-result-row {
-    background: var(--red-bg); border-radius: var(--radius-sm);
+    background: var(--green-bg); border-radius: var(--radius-sm);
     padding: 14px 16px; display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap;
   }
-  .acum-big { font-size: 36px; font-weight: 600; font-family: var(--mono); color: var(--red); }
+  .acum-big { font-size: 36px; font-weight: 600; font-family: var(--mono); color: var(--green); }
 
   /* Last update badge */
   .update-badge {
@@ -497,7 +497,7 @@ function render(data, updatedAt = null) {
       datasets: [{
         label: 'Var. mensual %',
         data: varData.map(x => parseFloat(x.monthly.toFixed(2))),
-        backgroundColor: '#d63031',
+        backgroundColor: '#588157',
         borderRadius: 3, borderSkipped: false,
       }]
     },
@@ -549,11 +549,12 @@ function calcAcum() {
 
   // INDEXED accumulation: (I_final / I_initial - 1) × 100
   const acum = (td.index / fd.index - 1) * 100;
+  const coef = td.index / fd.index;
   document.getElementById('acumRes').textContent = `+${acum.toFixed(2)}%`;
   document.getElementById('acumDetail').innerHTML =
-    `Índice ${fPer(fd.date)}: ${fd.index.toFixed(6)}\n` +
-    `Índice ${fPer(td.date)}: ${td.index.toFixed(6)}\n` +
-    `Coeficiente: ${(td.index / fd.index).toFixed(6)}`;
+    `Índice ${fPer(fd.date)}: <b>${fd.index.toFixed(4)}</b><br>` +
+    `Índice ${fPer(td.date)}: <b>${td.index.toFixed(4)}</b><br>` +
+    `Coeficiente indexado: <b>${coef.toFixed(6)}</b>`;
 }
 
 // ─── Calc: nominal value ─────────────────────────────────────────────────────
@@ -577,10 +578,10 @@ function calcValor() {
 
   document.getElementById('valorNum').textContent = `$ ${fmtPesos(adjusted)}`;
   document.getElementById('valorDetail').innerHTML =
-    `Valor base: $ ${fmtPesos(nominal)}\n` +
-    `Índice ${fPer(fd.date)}: ${fd.index.toFixed(4)}\n` +
-    `Índice ${fPer(td.date)}: ${td.index.toFixed(4)}\n` +
-    `Coeficiente AXI: ${coef.toFixed(6)}`;
+    `Valor base (${fPer(fd.date)}): <b>$ ${fmtPesos(nominal)}</b><br>` +
+    `Índice ${fPer(fd.date)}: <b>${fd.index.toFixed(4)}</b><br>` +
+    `Índice ${fPer(td.date)}: <b>${td.index.toFixed(4)}</b><br>` +
+    `Coeficiente AXI: <b>${coef.toFixed(6)}</b>`;
 }
 
 // ─── Load from URL (with CORS proxies) ───────────────────────────────────────
@@ -616,10 +617,11 @@ async function loadFromJson() {
     const r = await fetch('indices.json', { cache: 'no-store' });
     if (!r.ok) throw new Error('no json');
     const json = await r.json();
-    const data = (json.data || []).map(item => ({
-      date:  new Date(item.period + '-01'),
-      index: item.index,
-    }));
+    const data = (json.data || []).map(item => {
+      // Parse "YYYY-MM" as local date (not UTC) to avoid month offset in UTC-3/UTC-4
+      const [y, m] = item.period.split('-').map(Number);
+      return { date: new Date(y, m - 1, 1), index: item.index };
+    });
     if (data.length > 2) {
       render(data, json.updated_at);
       return true;
